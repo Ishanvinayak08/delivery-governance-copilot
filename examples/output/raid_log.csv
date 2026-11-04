@@ -1,0 +1,23 @@
+item_id,item_type,title,owner,due,severity,status,source,source_kind,external_key,updated,confidence
+T-001,Action,Confirm imaging build sign-off,Marcus,2026-10-30,High,Open,meeting_notes_2026-10-28.md,notes,,,1.0
+T-002,Action,Send revised vendor SOW,Sofia,2026-10-30,Low,Open,meeting_notes_2026-10-28.md,notes,,,0.85
+T-003,Action,Update the cutover runbook,,,Low,Open,meeting_notes_2026-10-28.md,notes,,,0.55
+T-004,Action,Circulate steering committee pack,Priya,2026-11-05,Low,Open,meeting_notes_2026-10-28.md,notes,,,0.85
+R-001,Risk,Courier delivery slot may slip due to port congestion,Sofia,,High,Open,meeting_notes_2026-10-28.md,notes,,,0.85
+R-002,Risk,Key network engineer on leave during the cutover weekend,,,Medium,Open,meeting_notes_2026-10-28.md,notes,,,0.55
+I-001,Issue,Imaging build fails on 2023 laptop model,Marcus,,Critical,Blocked,meeting_notes_2026-10-28.md,notes,,,0.85
+D-001,Dependency,Client security team to approve MDM policy,Daniel,2026-11-06,Medium,Open,meeting_notes_2026-10-28.md,notes,,,0.85
+DEC-001,Decision,Wave 3 will proceed in two batches rather than one,,,Medium,Open,meeting_notes_2026-10-28.md,notes,,,0.55
+T-005,Action,Request extra 40 devices from the client budget,Daniel,,Low,Open,meeting_notes_2026-10-28.md,notes,,,0.7
+I-002,Issue,The shipment of 120 devices is delayed by about a week due to customs clearance,,,Medium,Open,email_vendor_2026-11-02.txt,email,,,0.55
+D-002,Dependency,We are waiting on the signed SOW before we can release the second batch,,,Medium,Open,email_vendor_2026-11-02.txt,email,,,0.55
+R-003,Risk,There is a risk that the Wave 3 start date of 9 Nov may not hold if the imaging build issue is not fixed,,,Medium,Open,email_vendor_2026-11-02.txt,email,,,0.55
+I-003,Issue,The client has asked for an additional 40 devices which is out of scope of the current order,,,Medium,Open,email_vendor_2026-11-02.txt,email,,,0.55
+R-004,Risk,Pricing for the extra devices may increase,,2026-11-15,Medium,Open,email_vendor_2026-11-02.txt,email,,,0.7
+T-006,Action,Complete Wave 2 laptop imaging,Marcus,2026-10-23,Medium,Closed,jira_export_2026-11-04.csv,jira,ATL-101,2026-10-23,1.0
+I-004,Issue,Imaging build fails on 2023 laptop model,Marcus,,Critical,Blocked,jira_export_2026-11-04.csv,jira,ATL-104,2026-10-27,1.0
+T-007,Action,Prepare Wave 3 user comms,Sofia,2026-11-06,Medium,In Progress,jira_export_2026-11-04.csv,jira,ATL-110,2026-10-12,1.0
+T-008,Action,Configure MDM compliance policy,,2026-11-05,High,In Progress,jira_export_2026-11-04.csv,jira,ATL-112,2026-11-03,1.0
+T-009,Action,Update the cutover runbook,,2026-11-04,Medium,Open,jira_export_2026-11-04.csv,jira,ATL-115,2026-10-20,1.0
+D-003,Dependency,Courier delivery slot confirmation,Sofia,,High,Blocked,jira_export_2026-11-04.csv,jira,ATL-118,2026-10-29,1.0
+T-010,Action,Wave 3 user acceptance testing plan,Priya,2026-11-10,Medium,In Progress,jira_export_2026-11-04.csv,jira,ATL-120,2026-11-03,1.0

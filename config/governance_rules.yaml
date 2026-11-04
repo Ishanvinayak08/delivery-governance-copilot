@@ -1,0 +1,29 @@
+# Governance policy as configuration: change thresholds here, not in code.
+thresholds:
+  stale_days: 14            # In-progress item untouched this long is "stale"
+  overdue_escalate_days: 7  # Overdue by this many days or more escalates to High
+  duplicate_similarity: 0.85
+
+rag:
+  red_if_critical_findings: 1
+  red_if_high_findings: 3
+  amber_if_high_findings: 1
+  amber_if_medium_findings: 4
+
+scope_keywords:
+  - out of scope
+  - additional scope
+  - scope change
+  - scope creep
+  - new requirement
+  - additional devices
+  - additional licences
+
+rules_enabled:
+  GOV-001: true   # Missing owner
+  GOV-002: true   # Missing due date
+  GOV-003: true   # Overdue
+  GOV-004: true   # Stale in-progress work
+  GOV-005: true   # Blocked with no target unblock date
+  GOV-006: true   # Probable duplicate across sources
+  GOV-007: true   # Scope change without a change request

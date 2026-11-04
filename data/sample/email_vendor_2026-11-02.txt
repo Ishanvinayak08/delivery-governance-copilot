@@ -1,0 +1,15 @@
+From: Raj Patel <raj.patel@vendorco.example>
+To: Priya <priya@example.com>
+Date: Mon, 2 Nov 2026
+Subject: RE: Atlas Wave 3 delivery update
+
+Hi Priya,
+
+Quick update. The shipment of 120 devices is delayed by about a week due to customs clearance.
+We are waiting on the signed SOW before we can release the second batch.
+There is a risk that the Wave 3 start date of 9 Nov may not hold if the imaging build issue is not fixed.
+Also, the client has asked for an additional 40 devices which is out of scope of the current order.
+Risk: Pricing for the extra devices may increase by 5% after 15 Nov
+
+Thanks,
+Raj

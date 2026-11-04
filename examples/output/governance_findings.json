@@ -1,0 +1,226 @@
+[
+  {
+    "rule_id": "GOV-001",
+    "severity": "High",
+    "item_id": "T-008",
+    "item_title": "Configure MDM compliance policy",
+    "message": "Action has no accountable owner.",
+    "recommendation": "Assign a single named owner before the next governance meeting."
+  },
+  {
+    "rule_id": "GOV-003",
+    "severity": "High",
+    "item_id": "T-001",
+    "item_title": "Confirm imaging build sign-off",
+    "message": "Overdue by 5 day(s) (due 2026-10-30).",
+    "recommendation": "Re-baseline with the owner or escalate if it threatens a milestone."
+  },
+  {
+    "rule_id": "GOV-005",
+    "severity": "High",
+    "item_id": "D-003",
+    "item_title": "Courier delivery slot confirmation",
+    "message": "Blocked with no target unblock date.",
+    "recommendation": "Name the unblock owner and a date; escalate if external."
+  },
+  {
+    "rule_id": "GOV-005",
+    "severity": "High",
+    "item_id": "I-001",
+    "item_title": "Imaging build fails on 2023 laptop model",
+    "message": "Blocked with no target unblock date.",
+    "recommendation": "Name the unblock owner and a date; escalate if external."
+  },
+  {
+    "rule_id": "GOV-005",
+    "severity": "High",
+    "item_id": "I-004",
+    "item_title": "Imaging build fails on 2023 laptop model",
+    "message": "Blocked with no target unblock date.",
+    "recommendation": "Name the unblock owner and a date; escalate if external."
+  },
+  {
+    "rule_id": "GOV-007",
+    "severity": "High",
+    "item_id": "I-003",
+    "item_title": "The client has asked for an additional 40 devices which is out of scope of the current order",
+    "message": "Possible scope change with no change request reference.",
+    "recommendation": "Raise a change request (impact on cost, time, quality) before agreeing."
+  },
+  {
+    "rule_id": "GOV-007",
+    "severity": "High",
+    "item_id": "T-005",
+    "item_title": "Request extra 40 devices from the client budget",
+    "message": "Possible scope change with no change request reference.",
+    "recommendation": "Raise a change request (impact on cost, time, quality) before agreeing."
+  },
+  {
+    "rule_id": "GOV-001",
+    "severity": "Medium",
+    "item_id": "D-002",
+    "item_title": "We are waiting on the signed SOW before we can release the second batch",
+    "message": "Dependency has no accountable owner.",
+    "recommendation": "Assign a single named owner before the next governance meeting."
+  },
+  {
+    "rule_id": "GOV-001",
+    "severity": "Medium",
+    "item_id": "I-002",
+    "item_title": "The shipment of 120 devices is delayed by about a week due to customs clearance",
+    "message": "Issue has no accountable owner.",
+    "recommendation": "Assign a single named owner before the next governance meeting."
+  },
+  {
+    "rule_id": "GOV-001",
+    "severity": "Medium",
+    "item_id": "I-003",
+    "item_title": "The client has asked for an additional 40 devices which is out of scope of the current order",
+    "message": "Issue has no accountable owner.",
+    "recommendation": "Assign a single named owner before the next governance meeting."
+  },
+  {
+    "rule_id": "GOV-001",
+    "severity": "Medium",
+    "item_id": "R-002",
+    "item_title": "Key network engineer on leave during the cutover weekend",
+    "message": "Risk has no accountable owner.",
+    "recommendation": "Assign a single named owner before the next governance meeting."
+  },
+  {
+    "rule_id": "GOV-001",
+    "severity": "Medium",
+    "item_id": "R-003",
+    "item_title": "There is a risk that the Wave 3 start date of 9 Nov may not hold if the imaging build issue is not fixed",
+    "message": "Risk has no accountable owner.",
+    "recommendation": "Assign a single named owner before the next governance meeting."
+  },
+  {
+    "rule_id": "GOV-001",
+    "severity": "Medium",
+    "item_id": "R-004",
+    "item_title": "Pricing for the extra devices may increase",
+    "message": "Risk has no accountable owner.",
+    "recommendation": "Assign a single named owner before the next governance meeting."
+  },
+  {
+    "rule_id": "GOV-001",
+    "severity": "Medium",
+    "item_id": "T-003",
+    "item_title": "Update the cutover runbook",
+    "message": "Action has no accountable owner.",
+    "recommendation": "Assign a single named owner before the next governance meeting."
+  },
+  {
+    "rule_id": "GOV-001",
+    "severity": "Medium",
+    "item_id": "T-009",
+    "item_title": "Update the cutover runbook",
+    "message": "Action has no accountable owner.",
+    "recommendation": "Assign a single named owner before the next governance meeting."
+  },
+  {
+    "rule_id": "GOV-002",
+    "severity": "Medium",
+    "item_id": "D-002",
+    "item_title": "We are waiting on the signed SOW before we can release the second batch",
+    "message": "Dependency has no due date.",
+    "recommendation": "Agree a due date, or a review date for risks."
+  },
+  {
+    "rule_id": "GOV-002",
+    "severity": "Medium",
+    "item_id": "I-001",
+    "item_title": "Imaging build fails on 2023 laptop model",
+    "message": "Issue has no due date.",
+    "recommendation": "Agree a due date, or a review date for risks."
+  },
+  {
+    "rule_id": "GOV-002",
+    "severity": "Medium",
+    "item_id": "I-002",
+    "item_title": "The shipment of 120 devices is delayed by about a week due to customs clearance",
+    "message": "Issue has no due date.",
+    "recommendation": "Agree a due date, or a review date for risks."
+  },
+  {
+    "rule_id": "GOV-002",
+    "severity": "Medium",
+    "item_id": "I-003",
+    "item_title": "The client has asked for an additional 40 devices which is out of scope of the current order",
+    "message": "Issue has no due date.",
+    "recommendation": "Agree a due date, or a review date for risks."
+  },
+  {
+    "rule_id": "GOV-002",
+    "severity": "Medium",
+    "item_id": "R-001",
+    "item_title": "Courier delivery slot may slip due to port congestion",
+    "message": "Risk has no due date.",
+    "recommendation": "Agree a due date, or a review date for risks."
+  },
+  {
+    "rule_id": "GOV-002",
+    "severity": "Medium",
+    "item_id": "R-002",
+    "item_title": "Key network engineer on leave during the cutover weekend",
+    "message": "Risk has no due date.",
+    "recommendation": "Agree a due date, or a review date for risks."
+  },
+  {
+    "rule_id": "GOV-002",
+    "severity": "Medium",
+    "item_id": "R-003",
+    "item_title": "There is a risk that the Wave 3 start date of 9 Nov may not hold if the imaging build issue is not fixed",
+    "message": "Risk has no due date.",
+    "recommendation": "Agree a due date, or a review date for risks."
+  },
+  {
+    "rule_id": "GOV-002",
+    "severity": "Medium",
+    "item_id": "T-003",
+    "item_title": "Update the cutover runbook",
+    "message": "Action has no due date.",
+    "recommendation": "Agree a due date, or a review date for risks."
+  },
+  {
+    "rule_id": "GOV-002",
+    "severity": "Medium",
+    "item_id": "T-005",
+    "item_title": "Request extra 40 devices from the client budget",
+    "message": "Action has no due date.",
+    "recommendation": "Agree a due date, or a review date for risks."
+  },
+  {
+    "rule_id": "GOV-003",
+    "severity": "Medium",
+    "item_id": "T-002",
+    "item_title": "Send revised vendor SOW",
+    "message": "Overdue by 5 day(s) (due 2026-10-30).",
+    "recommendation": "Confirm a revised date with the owner."
+  },
+  {
+    "rule_id": "GOV-004",
+    "severity": "Medium",
+    "item_id": "T-007",
+    "item_title": "Prepare Wave 3 user comms",
+    "message": "In progress but untouched for 23 days.",
+    "recommendation": "Check whether work has stalled and update the ticket."
+  },
+  {
+    "rule_id": "GOV-006",
+    "severity": "Low",
+    "item_id": "I-001",
+    "item_title": "Imaging build fails on 2023 laptop model",
+    "message": "Probable duplicate of I-004 (jira_export_2026-11-04.csv).",
+    "recommendation": "Cross-reference or merge so the item has one source of truth."
+  },
+  {
+    "rule_id": "GOV-006",
+    "severity": "Low",
+    "item_id": "T-003",
+    "item_title": "Update the cutover runbook",
+    "message": "Probable duplicate of T-009 (jira_export_2026-11-04.csv).",
+    "recommendation": "Cross-reference or merge so the item has one source of truth."
+  }
+]
