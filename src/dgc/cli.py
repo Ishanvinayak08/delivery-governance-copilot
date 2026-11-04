@@ -44,7 +44,8 @@ def main(argv: list[str] | None = None) -> int:
 
     run = sub.add_parser("run", help="Process your own inputs")
     common(run)
-    run.add_argument("--notes", nargs="*"); run.add_argument("--emails", nargs="*")
+    run.add_argument("--notes", nargs="*")
+    run.add_argument("--emails", nargs="*")
     run.add_argument("--jira", nargs="*")
     run.set_defaults(func=_run)
 
