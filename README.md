@@ -1,6 +1,6 @@
 # Delivery Governance Copilot
 
-[![CI](https://github.com/<your-username>/delivery-governance-copilot/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/delivery-governance-copilot/actions)
+[![CI](https://github.com/Ishanvinayak08/delivery-governance-copilot/actions/workflows/ci.yml/badge.svg)](https://github.com/Ishanvinayak08/delivery-governance-copilot/actions)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
